@@ -15,12 +15,12 @@ public class Calculator {
 
     public void substrNumbers(double a, double b){
         System.out.println("Substract two numbers " + a + " and " + b);
-        System.out.println("The difference is: " + (a-b));
+        System.out.println("The difference of two numbers: " + (a-b));
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(Calculator.class, args);
-    }{
+        SpringApplication.run(Calculator.class, args);}{
+
         a=3444.33;
         b=2223.11;
         addNumbers(a,b);
